@@ -1,0 +1,26 @@
+body{
+    display: grid;
+    grid-template-columns: auto 1200px;
+    margin: auto;
+    width: 80%;
+    background-color: black;
+}
+
+#leftSide{
+    grid-column: 1;
+    background-color: white;
+    display: flex;
+    flex-flow: nowrap column;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+#leftSide ul{
+    list-style-type: none;
+    margin-left: -40px;
+}
+
+#collage{
+    grid-column: 2;
+}
